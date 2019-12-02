@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding-top: 50px;
+}
+
+.nav-bar {
+  position: fixed;
+  background-color: rgb(194, 194, 194);
+  width: 100vw;
+  padding-left: 10px;
+}
+
+.title {
+  text-align: center;
+  background-color: rgb(221, 221, 221);
+  margin: 0;
+  padding: 20px;
+}
+.employer {
+  background-color: rgb(187, 187, 187);
+  padding: 15px;
+  padding-top: 10px;
+}
+
+.employer-section {
+  background-color: rgb(221, 221, 221);
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 10px;
+}

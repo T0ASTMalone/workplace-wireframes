@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  background-color: rgb(194, 194, 194);
+  width: 100vw;
+  padding-left: 10px;
+}
+
+.info {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.tab {
+  width: 30.3vw;
+  height: 40px;
+  background: none;
+  border: none;
+  margin: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#feed {
+  background-color: rgb(194, 194, 194);
+}
+
+#ideas {
+  background-color: rgb(109, 109, 109);
+}
+
+#safety,
+.safety-feed {
+  background-color: rgb(155, 154, 154);
+}
+
+.feed {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  background-color: rgb(194, 194, 194);
+}
+
+.event {
+  box-shadow: 5px 5px 5px 2px rgba(148, 148, 148, 0.664);
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.event-button {
+  width: 100px;
+}
+
+.form {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 2px rgba(95, 95, 95, 0.664);
+}
+
+.safety,
+.safety-feed {
+  padding: 15px;
+  background-color: rgb(155, 154, 154);
+}
+
+.safety-form,
+.idea-form,
+.new-post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.safety-input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ideas {
+  padding: 15px;
+  background-color: rgb(109, 109, 109);
+  height: 80vh;
+}
+
+.new-post {
+  padding: 15px;
+  background-color: rgb(194, 194, 194);
+}
+
+#emp-ideas {
+  background-color: rgb(109, 109, 109);
+}
