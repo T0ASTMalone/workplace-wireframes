@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
-    <title>WorkPlace</title>
+    <title>Employee Register</title>
   </head>
   <body>
     <nav class="nav-bar">
@@ -23,7 +23,7 @@
             class="input"
             type="text"
             class="user-name"
-            placeholder="User Name"
+            placeholder="Employee Name"
           />
           <input
             class="input"
@@ -31,19 +31,22 @@
             class="password"
             placeholder="Password"
           />
-          <div class="user-type">
-            <input type="radio" value="employer" />Employer
-            <input type="radio" value="employee" />Employee
-          </div>
-          <a class="forgot-pass" href="">forgot password?</a>
+          <input
+            class="input"
+            type="password"
+            class="password"
+            placeholder="Confirm Password"
+          />
+          <input class="input" type="number" placeholder="WorkPlace Code" />
+          <a class="forgot-pass" href="employer-register.html"
+            >Are you an employer?</a
+          >
         </div>
         <div class="button-container">
           <button class="button">
-            <a href="whiteboard.html">Sign In</a>
+            <a href="signin.html">Sign In</a>
           </button>
-          <button class="button">
-            <a href="emp-register.html">Register</a>
-          </button>
+          <button class="button"><a href="signin.html">Register</a></button>
         </div>
       </form>
     </section>
